@@ -58,16 +58,16 @@
             <artifactId>flink-clients_${flink.scala.version}</artifactId>
             <version>${flink.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-kafka_${flink.scala.version}</artifactId>
-            <version>${flink.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-runtime-web_${flink.scala.version}</artifactId>
-            <version>${flink.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.flink</groupId>-->
+<!--            <artifactId>flink-connector-kafka_${flink.scala.version}</artifactId>-->
+<!--            <version>${flink.version}</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.flink</groupId>-->
+<!--            <artifactId>flink-runtime-web_${flink.scala.version}</artifactId>-->
+<!--            <version>${flink.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
