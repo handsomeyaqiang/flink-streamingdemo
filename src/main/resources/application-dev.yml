@@ -1,4 +1,4 @@
 logging:
-  path: flink-streaming.log
+  path: D://logs/send
   level:
-    com.qingningnet.dao: error
+    com.jikewang.dao: info

@@ -1,2 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 10MB
+
 logging:
   config: classpath:logback-spring.xml

@@ -24,7 +24,6 @@ import org.slf4j.LoggerFactory;
  * @Version: 1.0
  */
 public class WordCount {
-    final private static Logger logger = LoggerFactory.getLogger(WordCount.class);
     public static void Demo1(String[] args) throws Exception {
         final MultipleParameterTool params = MultipleParameterTool.fromArgs(args);
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();

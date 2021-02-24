@@ -162,7 +162,7 @@
 
     <!--开发环境:打印控制台-->
     <springProfile name="dev">
-        <logger name="com.jikewang" level="info" />
+        <logger name="com.youxin" level="info" />
     </springProfile>
     <!--<root level="info">
         <appender-ref ref="CONSOLE" />

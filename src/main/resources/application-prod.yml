@@ -1,2 +1,2 @@
 logging:
-  path: D://logs/flink-streaming.log
+  path: D://logs/send
